@@ -1,0 +1,23 @@
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials — never upload actual environment files
+.env
+.env.*
+!.env.example
+1_credit_risk.env
+2_postgres.env
+secrets.toml
+
+# Local editor settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
+.DS_Store
+desktop.ini

@@ -1,0 +1,335 @@
+/* ==========================================================
+   FUSION FINANCE - PROFESSIONAL BANKING THEME
+========================================================== */
+
+:root{
+    --primary:#E8772E;
+    --primary-dark:#D7641F;
+    --secondary:#F4F6F9;
+    --card:#FFFFFF;
+    --text:#2C3440;
+    --border:#E8E8E8;
+}
+
+
+/* ==========================================================
+   APP
+========================================================== */
+
+.stApp{
+
+    background:linear-gradient(
+        135deg,
+        #FFF8F4 0%,
+        #F7F9FC 100%
+    );
+
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer{
+    visibility:hidden;
+}
+
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+section[data-testid="stSidebar"]{
+
+    background:#FFFFFF;
+
+    border-right:1px solid #ECECEC;
+
+    width:300px !important;
+
+}
+
+
+section[data-testid="stSidebar"] img{
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+
+}
+
+
+section[data-testid="stSidebar"] hr{
+
+    margin-top:10px;
+
+    margin-bottom:10px;
+
+}
+
+
+/* ==========================================================
+   BUTTON
+========================================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-weight:600;
+
+    font-size:15px;
+
+    transition:0.30s;
+
+}
+
+
+.stButton>button:hover{
+
+    background:var(--primary-dark);
+
+}
+
+
+/* ==========================================================
+   TEXT INPUT
+========================================================== */
+
+.stTextInput input{
+
+    border-radius:12px !important;
+
+    border:1px solid #DDDDDD !important;
+
+    height:48px;
+
+}
+
+
+/* ==========================================================
+   PASSWORD
+========================================================== */
+
+.stTextInput{
+
+    border-radius:12px;
+
+}
+
+
+/* ==========================================================
+   SELECTBOX
+========================================================== */
+
+.stSelectbox div{
+
+    border-radius:12px;
+
+}
+
+
+/* ==========================================================
+   MULTISELECT
+========================================================== */
+
+.stMultiSelect{
+
+    border-radius:12px;
+
+}
+
+
+/* ==========================================================
+   METRIC CARD
+========================================================== */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:16px;
+
+    border:1px solid #ECECEC;
+
+    padding:18px;
+
+    box-shadow:
+
+        0 2px 8px rgba(0,0,0,.05);
+
+}
+
+
+/* ==========================================================
+   DATAFRAME
+========================================================== */
+
+div[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    border:1px solid #ECECEC;
+
+}
+
+
+/* ==========================================================
+   PLOTLY
+========================================================== */
+
+.js-plotly-plot{
+
+    background:white;
+
+    border-radius:15px;
+
+    border:1px solid #ECECEC;
+
+    padding:5px;
+
+}
+
+
+/* ==========================================================
+   EXPANDER
+========================================================== */
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================
+   ALERTS
+========================================================== */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+
+.stWarning{
+
+    border-radius:12px;
+
+}
+
+
+.stError{
+
+    border-radius:12px;
+
+}
+
+
+/* ==========================================================
+   CHECKBOX
+========================================================== */
+
+.stCheckbox{
+
+    padding-top:5px;
+
+}
+
+
+/* ==========================================================
+   SCROLLBAR
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+    height:8px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+    background:#F1F1F1;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+    background:#C7C7C7;
+
+    border-radius:10px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#A8A8A8;
+
+}
+
+
+/* ==========================================================
+   REMOVE EXCESS PADDING
+========================================================== */
+
+.block-container{
+
+    padding-top:1rem;
+
+    padding-left:2rem;
+
+    padding-right:2rem;
+
+}
+
+
+/* ==========================================================
+   TABLE HEADER
+========================================================== */
+
+thead tr th{
+
+    background:#F8F9FB !important;
+
+}
+
+
+/* ==========================================================
+   SIDEBAR RADIO
+========================================================== */
+
+div[role="radiogroup"] label{
+
+    padding:6px;
+
+    border-radius:8px;
+
+}
+
+
+/* ==========================================================
+   HOVER EFFECT
+========================================================== */
+
+div[role="radiogroup"] label:hover{
+
+    background:#F4F4F4;
+
+}
